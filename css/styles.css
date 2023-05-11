@@ -1,0 +1,235 @@
+:root {
+--primary-font:'Roboto', sans-serif;
+--secondary-font:'Raleway', sans-serif;
+--praimary-text-color: #434455;
+--praimary-title-color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family:'Roboto', sans-serif;;
+    letter-spacing: 0.02em;
+    color: var(--praimary-text-color);
+}
+
+
+
+/* =====COMPONENTS===== */
+
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+
+.logo-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+
+.footer .logo-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+
+/* =====/COMPONENTS===== */
+
+
+
+/* ======HEADER======== */
+
+.menu {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: #404BBF; }
+
+
+.mail {
+font-size: 16px;
+line-height: 1.5;
+}
+
+
+.mail:hover,
+.mail:focus {
+color: #404BBF;
+}
+
+
+.telephone {
+
+font-size: 16px;
+line-height: 1.5;
+
+}
+
+
+.telephone:hover,
+.telephone:focus {
+color: #404BBF;
+}
+
+
+/* ======/HEADER======== */
+
+
+
+/* ======HERO========= */
+.hero {
+background: #2E2F42;
+}
+
+.main-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+color: #FFFFFF;
+}
+
+.btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+background: #404BBF;
+color: #FFFFFF;
+}
+
+
+.filter-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+color: #FFFFFF;
+background: #404BBF;}
+
+
+
+.products-titles {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+
+.products-text {
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* ======/HERO========= */
+
+
+/* =====ABOUT===== */
+.item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+
+
+.about-text {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.about-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+color: #2E2F42;
+}
+
+/* =====/ABOUT===== */
+
+/* =====TEAM===== */
+.team{
+background: #F4F4FD;
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+color: #2E2F42;
+}
+
+.team-names {
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* =====/TEAM===== */
+
+
+/* =====FOOTER===== */
+
+.footer {
+background: #2E2F42;
+}
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;              
+}
+
+/* =====/FOOTER===== */
