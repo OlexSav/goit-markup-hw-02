@@ -76,31 +76,24 @@ line-height: 1.5;
 color: var(--praimary-title-color);
 }
 
+.menu-link {
+color: var(--praimary-title-color);
+}
+
 .menu-link:hover,
 .menu-link:focus {
 color: #404BBF; }
 
 
-.mail {
+.mailtel {
 font-size: 16px;
 line-height: 1.5;
+color: var(--praimary-text-color)
 }
 
 
-.mail:hover,
-.mail:focus {
-color: #404BBF;
-}
-
-
-.telephone {
-font-size: 16px;
-line-height: 1.5;
-}
-
-
-.telephone:hover,
-.telephone:focus {
+.mailtel:hover,
+.mailtel:focus {
 color: #404BBF;
 }
 
@@ -117,10 +110,13 @@ background: var(--praimary-title-color);
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
 .btn {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -138,6 +134,7 @@ color: #FFFFFF;
 
 
 .filter-btn {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -172,6 +169,7 @@ line-height: 1.5;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--praimary-title-color);
 }
 
@@ -185,6 +183,8 @@ line-height: 1.5;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 color: var(--praimary-title-color);
 }
 /* =====/ABOUT===== */
@@ -199,15 +199,20 @@ background: #F4F4FD;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 color: var(--praimary-title-color);
 }
 
 .team-names {
-
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+background-color: #FFFFFF;
 color: var(--praimary-title-color);
+
 }
 
 .team-text {
